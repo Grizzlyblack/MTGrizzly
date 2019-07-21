@@ -1,0 +1,14 @@
+.carousel {
+	display: inline-block;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.carousel-image {
+	margin: 0 .5vw;
+}
+.carousel-image .image {
+	min-width: 100px;
+}
