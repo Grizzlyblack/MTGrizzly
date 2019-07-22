@@ -21,12 +21,5 @@ class PageController extends Controller
             'Converted Cost', 'Power', 'Toughness'];
         $sets = MtgSet::orderBy('name')->pluck('name');
     	return view('search', compact('cardValues', 'sets'));
-        // $sets = MtgSet::all();
-        // foreach($sets as $set) {
-        //     if($set->name[0] == " ") {
-        //         $set->name = substr($set->name, 1);
-        //     }
-        //     $set->save();
-        // }
     }
 }
